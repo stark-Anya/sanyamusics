@@ -9,7 +9,7 @@ load_dotenv()
 # Required credentials
 API_ID = int(getenv("API_ID", "20394525"))
 API_HASH = getenv("API_HASH", "6e84bd0f4362b85dab38ede07245b16d")
-BOT_TOKEN = getenv("BOT_TOKEN", "8054422837:AAHISKWnOabYx1e0ySiHvXgsle4Zk5j3PCY")
+BOT_TOKEN = getenv("BOT_TOKEN", "")
 GROQ_API_KEY = getenv("GROQ_API_KEY", "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")
 GROQ_MODEL = getenv("GROQ_MODEL", "llama-3.1-8b-instant")
 
@@ -17,20 +17,20 @@ COMMAND_PREFIXES = list(getenv("COMMAND_PREFIXES", "/ ! .").split())
 
 # Bot and owner info
 OWNER_USERNAME = getenv("OWNER_USERNAME", "urstarkz")
-BOT_USERNAME = getenv("BOT_USERNAME", "AyakaXMusicBot")
+BOT_USERNAME = getenv("BOT_USERNAME", "")
 BOT_NAME = getenv("BOT_NAME", "Sanya")
 ASSUSERNAME = getenv("ASSUSERNAME", "SANYAassistant")
-MUST_JOIN = getenv("MUST_JOIN", "OnyxCoders")
+MUST_JOIN = getenv("MUST_JOIN", "")
 BASE_URL = "https://api.waifu.pics"
 
 # MongoDB
-MONGO_DB_URI = getenv("MONGO_DB_URI", "mongodb+srv://onyxcoders:aH8lNcURcuDmkL7D@cluster0.1ojawuj.mongodb.net/?appName=Cluster0")
+MONGO_DB_URI = getenv("MONGO_DB_URI", "")
 
 # Limits and IDs
 DURATION_LIMIT_MIN = int(getenv("DURATION_LIMIT", 17000))
-LOGGER_ID = int(getenv("LOGGER_ID", "-1003595485481"))
-OWNER_ID = int(getenv("OWNER_ID", "5303251380"))
-POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", "-1003650686177"))
+LOGGER_ID = int(getenv("LOGGER_ID", ""))
+OWNER_ID = int(getenv("OWNER_ID", ""))
+POST_CHANNEL_ID = int(getenv("POST_CHANNEL_ID", ""))
 
 # Heroku
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
@@ -43,11 +43,11 @@ UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
 # Support
-SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "https://t.me/OnyxCoders")
-SUPPORT_CHAT = getenv("SUPPORT_CHAT", "https://t.me/+R2Ux9jRrlNo2ZGI9")
+SUPPORT_CHANNEL = getenv("SUPPORT_CHANNEL", "")
+SUPPORT_CHAT = getenv("SUPPORT_CHAT", "")
 
 # Mini App
-MINI_APP_URL = getenv("MINI_APP_URL", "https://chorusx.vercel.app")
+MINI_APP_URL = getenv("MINI_APP_URL", "")
 
 # Assistant settings
 AUTO_LEAVING_ASSISTANT = getenv("AUTO_LEAVING_ASSISTANT", "True")
@@ -69,7 +69,7 @@ TG_AUDIO_FILESIZE_LIMIT = int(getenv("TG_AUDIO_FILESIZE_LIMIT", "5242880000"))
 TG_VIDEO_FILESIZE_LIMIT = int(getenv("TG_VIDEO_FILESIZE_LIMIT", "5242880000"))
 
 # Session strings
-STRING1 = getenv("STRING_SESSION", "BQFZuDsAFIoK-HkjEpEYefvNd3OZ6Vwp8rqlShtMHucPUyjJZr4Ju7Sjfc_JVunz6brj-PQRQD-REyMBXrHeoWRUGNiiPtVyMxgorFHBGoNoqXIkYDx3zx6NaHDSKs3E343j86InqEftXEwqIxe_JBRC20BzFuzJM2FJ_XCwIyNixnnIgbH_n3vtOIV9ezbPzTmNkZDO5vxjFOe7ibOe_z_n_FtH8Ke9F7e6xcDrp3_9gkOO4oOYvz1_0v0nELXHAPrbQqbCVOncrpinwCY2ytZIsZrZSdNykCyxft7A-7oDVlLt8jQJVslh6woY8MZTbuNUle44CVUFusOUpblvvdNXmyVX3wAAAAHdF9OCAA")
+STRING1 = getenv("STRING_SESSION", "")
 STRING2 = getenv("STRING_SESSION2", None)
 STRING3 = getenv("STRING_SESSION3", None)
 STRING4 = getenv("STRING_SESSION4", None)
