@@ -1,4 +1,3 @@
-import os
 import re
 import asyncio
 from pyrogram import Client, filters
@@ -8,6 +7,8 @@ from SANYAMUSIC import app
 from SANYAMUSIC.misc import SUDOERS
 from strings import get_string
 from SANYAMUSIC.utils.database import get_lang
+
+# Import the variables directly from your existing config module
 from config import API_ID, API_HASH, MONGO_DB_URI
 
 mongo = AsyncIOMotorClient(MONGO_DB_URI)
