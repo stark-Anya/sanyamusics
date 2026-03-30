@@ -25,7 +25,6 @@
 | Modern Interface | Powerful Commands | 1-3s Response | 99.9% Uptime |
 
 </div>
-
 <details>
   <summary><b>Features:</b></summary>
   
